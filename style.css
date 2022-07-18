@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+img{
+    width: 100%;
+    max-width: 299px;
+}
+
+section#mainSection {
+    background: #f0f2f5;
+    height: 100vh;
+    padding: 85px 0px 112px;
+}
+
+.mainWrapper {
+    width: 976px;
+    margin: auto;
+}
+.leftSide {
+    /* border: 1px solid red; */
+    width: 548px;
+    display: block;
+    padding: 95px 0 16px;
+    float: left;
+}
+img.fbLogo {
+    margin-left: -25px;
+    margin-bottom: -15px;
+}
+
+h2.afterLogo {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.rightSide {
+    width: 400px;
+    margin-top: 51px;
+    float: right;
+    background: #fff;
+    padding: 20px;
+    padding-bottom: 0;
+    border-radius: 10px;
+    box-shadow: 0px 0px 23px 1px #d9d7d7;
+}
+
+form.loginForm {
+    background: #fff;
+    display: block;
+    position: relative;
+}
+input.inputBox {
+    display: block;
+    width: 100%;
+    margin: 0px 0 14px 0px;
+    padding: 14px 16px;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+}
+
+input.inputBox.loginButton {
+    font-size: 19px;
+    background: #1877f2;
+    color: #fff;
+    font-weight: 900;
+}
+a.forgetBtn {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #ddd;
+}
+
+a.newAccountBtn {
+    display: block;
+    padding: 13px;
+    margin: 20px 74px;
+    margin-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+    background: #42b72a;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 7px;
+}
+p.createPageOption {
+    position: relative;
+    top: 47px;
+    left: 15px;
+}
+p.createPageOption span {
+    color: black;
+    font-weight: 600;
+}
+section#languageSection {
+    padding: 30px 0;
+    width: 980px;
+    margin: auto;
+    color: #81868e;
+    font-size: 13px;
+}
+.partOne {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+    word-spacing: 7px;
+}
+.part2 p {
+    padding: 3px;
+    word-spacing: 4px;
+}
+p.copy {
+    margin-top: 15px;
+}
+.partOne span {
+    display: inline-grid;
+    background: #ddd;
+    width: 40px;
+    height: 20px;
+    font-weight: bold;
+    color: #686f7e;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding-bottom: 5px;
+    border: 1px solid #aaa;
+}
